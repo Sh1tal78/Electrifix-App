@@ -48,11 +48,4 @@ Electrifix is an Android application designed to **digitize electrical maintenan
 ### **Complaint PDF**
 ![Complaint PDF Screenshot](screenshots/pdf.jpg)
 
-> ⚠️ Replace the placeholders in `screenshots/` with actual images from your app.
 
----
-
-## **Installation**
-1. Clone this repository:  
-```bash
-git clone https://github.com/YourUsername/Electrifix-App.git
