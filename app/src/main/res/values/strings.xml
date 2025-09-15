@@ -1,0 +1,108 @@
+
+
+<resources>
+    <string name="app_name">GCEK Electrifix</string>
+
+
+    <string-array name="roles">
+        <item>super_admin</item>
+        <item>admin</item>
+        <item>client</item>
+    </string-array>
+
+    <string-array name="roles_excluding_superadmin">
+        <item>admin</item>
+        <item>client</item>
+    </string-array>
+
+    <string-array name="departments">
+        <item>Select Department</item>
+        <item>Applied Mechanics</item>
+        <item>Auditorium</item>
+        <item>Central Library and Reading Room</item>
+        <item>Chemistry</item>
+        <item>Civil Department</item>
+        <item>DEAN Office, Exam Department and COE Cell</item>
+        <item>Electrical Department</item>
+        <item>Electronics and Telecommunications Department</item>
+        <item>Entire residential area, Officers and staff residences, All hostels, BWC Hostel and Residential street lights and Other programs, gatherings, etc. other than those specified above.</item>
+
+        <item>First Year All Classrooms</item>
+        <item>Gymkhana</item>
+        <item>Incubation Centre (CIIS)</item>
+        <item>Information Technology</item>
+        <item>MCA</item>
+        <item>MSEB meter reading and Billing in the Institution</item>
+        <item>Maths</item>
+        <item>Mechanical Department</item>
+        <item>New IT Building</item>
+        <item>New Library Building</item>
+        <item>Office</item>
+        <item>PG Building</item>
+        <item>Physics</item>
+        <item>Solar meter reading and Net metering and billing</item>
+        <item>Turn on/off, maintain and repair generators as required</item>
+        <item>Workshop</item>
+    </string-array>
+
+
+
+    <string name="register_title">Register</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="register_button">Register</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="login_title">Login</string>
+    <string name="email_hint">Enter Your Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">LOGIN</string>
+    <string name="register_prompt">Don\'t have an account? Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password_reset_icon_desc">Password reset icon</string>
+    <string name="reset_password_title">Reset Password</string>
+    <string name="reset_password_subtitle">Enter your email to receive a password reset link</string>
+
+    <string name="reset_password_button">SEND RESET LINK</string>
+
+
+    <string name="app_logo_desc">App Logo</string>
+
+    <string name="version_info">Version 1.0.0</string>
+    <string name="developed_by">Developed by</string>
+    <string name="in_association_with">In association with</string>
+    <string name="copyright_info">© 2023 All Rights Reserved</string>
+
+
+    <string name="complaint_form_title">Register a Complaint</string>
+    <string name="department_hint">Department</string>
+    <string name="complaint_type_hint">Type of Complaint</string>
+    <string name="contact_person_hint">Contact Person</string>
+
+    <string name="description_hint">Detailed Description</string>
+    <string name="priority_hint">Priority</string>
+    <string name="location_hint">Location/Area</string>
+    <string name="submit_button_text">Submit Complaint</string>
+
+
+
+
+
+
+    <string-array name="priority_levels">
+        <item>Priority</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="status_options">
+        <item>Pending</item>
+        <item>Resolved</item>
+        <item>Closed</item>
+    </string-array>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
+

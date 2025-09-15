@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme - changed to Light version -->
+    <style name="Base.Theme.ProjectC" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#E6B544</item>
+
+        <!-- For API 29+ -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- For Material 3 components -->
+        <item name="materialThemeOverlay">@style/ThemeOverlay.ProjectC.Light</item>
+    </style>
+
+    <style name="ThemeOverlay.ProjectC.Light" parent="">
+        <item name="isLightTheme">true</item>
+    </style>
+
+    <style name="CustomSearchViewStyle">
+        <item name="android:textColorHint">#524E4E</item>
+        <item name="android:background">#F0F0F0</item>
+    </style>
+
+    <style name="Theme.ProjectC" parent="Base.Theme.ProjectC" />
+</resources>
